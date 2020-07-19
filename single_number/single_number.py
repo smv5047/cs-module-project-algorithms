@@ -23,7 +23,8 @@ def single_number(arr):
             singles_set.append(arr[i])
 
     # perform dif of two sets
-    return Diff(singles_set, doubles_set)
+    answer = Diff(singles_set, doubles_set)
+    return answer[0]
 
 
 if __name__ == '__main__':
